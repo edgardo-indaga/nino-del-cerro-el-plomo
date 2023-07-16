@@ -1,6 +1,7 @@
 # dependencies
 node_modules
 src
+360
 .idea
 .DS_Store
 tailwind.config.js

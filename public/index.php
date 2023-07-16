@@ -263,6 +263,7 @@
             <img alt="Icono 360" class="w-[100px] md:w-[110px] xl:w-[130px]" src="assets/img/icono360.svg">
             <a class="font-avenir items-center text-[#812C27] md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] mt-[40px] md:mt-[30px] xl:mt-[40px] bg-[#D2BBA6] md:bg-transparent md:border-[1.5px] md:border-[#ffffff] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#812C27] hover:border-[#812C27] hover:text-[#ffffff] tracking-[0.1em]"
                href="/360/index.htm">GALERÍA 360°</a>
+
         </div>
     </div>
 </section>
