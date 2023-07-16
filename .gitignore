@@ -1,0 +1,11 @@
+# dependencies
+node_modules
+src
+360
+.idea
+.DS_Store
+tailwind.config.js
+package-lock.json
+package.json
+
+# Don't Push DS_Store
