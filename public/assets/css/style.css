@@ -2085,7 +2085,7 @@ ul.breadcrumb li span {
   }
 
   .\32xl\:h-\[200\] {
-    height: 200;
+    height: 200px;
   }
 
   .\32xl\:h-\[55vh\] {
@@ -2098,6 +2098,10 @@ ul.breadcrumb li span {
 
   .\32xl\:h-\[920px\] {
     height: 920px;
+  }
+
+  .\32xl\:h-\[150px\] {
+    height: 150px;
   }
 
   .\32xl\:w-4\/12 {

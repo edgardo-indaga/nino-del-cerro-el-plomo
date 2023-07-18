@@ -32,7 +32,7 @@
 
 <!-- SECTION MENU -->
 
-<header class="bg-transparent z-[1000] 2xl:h-[200]">
+<header class="bg-transparent z-[1000] 2xl:h-[150px]">
     <!-- header desktop -->
     <div class="container mx-auto flex flex-row md:h-[100px] md:visible xl:h-[150px] 2xl:visible menu-desktop">
         <div class="flex flex-row items-center md:w-3/12">
@@ -320,8 +320,8 @@
                                                                              class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px"
                                                                              src="assets/img/fac-comunicacion.svg"></a>
                 <div class="flex flex-col justify-items-center align-middle ml-[40px] items-end">
-                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid">¿Eres docente? Coordina una vista</a>
-                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid">¿Quieres participar?</a>
+                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Eres docente? Coordina una vista</a>
+                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
                 </div>
             </div>
         </div>
