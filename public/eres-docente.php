@@ -13,7 +13,9 @@
 <?php include 'assets/layout/header.php'; ?>
 <!-- IMAGEN PRINCIPAL HOME -->
 
+<section>
 
+</section>
 
 <!-- PRE-FOOTER & FOOTER -->
 <?php include 'assets/layout/footer.php';?>
