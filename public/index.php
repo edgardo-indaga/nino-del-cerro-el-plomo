@@ -14,8 +14,8 @@
     <meta content="Indaga" name="author">
     <meta content="edgardo@indaga.me" name="reply-to">
     <link href="mailto:edgardo@indaga.me" rev="made">
-    <meta content="" name="description"/>
-    <meta content="" name="keywords">
+    <meta content="" name="Acércate al Niño del Cerro El Plomo | Experiencia de realidad virtual de la Corporación Cultura del Lo Barnechea"/>
+    <meta content="" name="realidad virtual, RV, experiencia inmersiva, Niño cerro El Plomo, Lo Barnechea, educación, divulgación, incas, capacocha">
     <meta content="Document" name="Resource-type">
     <meta content="Sat, 11 May 2023 00:00:00 GMT-4" name="DateCreated">
     <meta content="4 days" name="Revisit-after">
@@ -24,6 +24,7 @@
     <!-- CSS PERSONALIZADO -->
     <link href="assets/img/favicon.png" rel="shortcut icon" type="image/x-icon">
     <link href="assets/css/style.css " rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet" />
 
 </head>
 
@@ -33,23 +34,23 @@
 
 <header class="bg-transparent z-[1000] 2xl:h-[200]">
     <!-- header desktop -->
-    <div class="container invisible mx-auto flex flex-row md:h-[100px] md:visible xl:h-[150px] 2xl:visible">
+    <div class="container mx-auto flex flex-row md:h-[100px] md:visible xl:h-[150px] 2xl:visible menu-desktop">
         <div class="flex flex-row items-center md:w-3/12">
-            <a class="cursor-pointer" href="#"><img alt="Logo" class="md:w-[40%] xl:w-[40%]"
+            <a class="cursor-pointer" href="index.php"><img alt="Logo" class="md:w-[40%] xl:w-[40%]"
                                                     src="assets/img/logo-nino.svg"></a>
         </div>
         <div class="flex flex-row items-center justify-end menu-item md:w-9/12">
             <div class="menu-item">
                 <a class="item-menu-1 uppercase text-white font-avenir cursor-pointer font-black tracking-wider md:text-[14px] md:leading-[14px] xl:text-[16px] xl:leading-[16px] md:pr-[20px] xl:pr-[40px] hover:text-[#812C27]"
-                   href="#">Inicio</a>
+                   href="index.php">Inicio</a>
             </div>
             <div class="menu-item">
                 <a class="item-menu-2 uppercase text-white font-avenir cursor-pointer font-black tracking-wider md:text-[14px] md:leading-[14px] xl:text-[16px] xl:leading-[16px] md:pr-[20px] xl:pr-[40px] hover:text-[#812C27]"
-                   href="#">El proyecto</a>
+                   href="el-proyecto.php">El proyecto</a>
             </div>
             <div class="menu-item">
                 <a class="item-menu-3 uppercase text-white font-avenir cursor-pointer font-black tracking-wider md:text-[14px] md:leading-[14px] xl:text-[16px] xl:leading-[16px]  hover:text-[#812C27] flex justify-end"
-                   href="#">La Experiencia</a>
+                   href="la-experiencia.php">La Experiencia</a>
             </div>
             <a href="https://corporacionculturaldelobarnechea.cl/home" target="_blank" class="flex justify-end"><img
                         alt="Corporación Cultural de Lo Barnechea" src="assets/img/logo-corporacion.svg"
@@ -59,12 +60,12 @@
     </div>
 
     <!-- header mobile -->
-    <div class="visible mt-[-40px] md:hidden">
+    <div class="visible md:hidden">
         <!-- Navbar start -->
         <div class="container mx-auto flex flex-row bg-transparent">
             <div class="w-9/12">
                 <div class="pl-[20px]">
-                    <a href="#" class="inline"><img src="assets/img/logo-nino.svg" alt="Logo" class="w-[90px]"></a>
+                    <a href="index.php" class="inline"><img src="assets/img/logo-nino.svg" alt="Logo" class="w-[90px]"></a>
                 </div>
             </div>
             <div class="w-3/12 justify-end">
@@ -98,19 +99,19 @@
                             <li>
                                 <a onclick="closeNav()"
                                    class="flex py-4 font-semibold text-white font-avenir text-[18px] tracking-[0.2em] mt-[20px] pl-[30%]"
-                                   href="#">INICIO
+                                   href="inicio.php">INICIO
                                 </a>
                             </li>
                             <li>
                                 <a onclick="closeNav()"
                                    class="flex py-4 font-semibold text-white font-avenir text-[18px] tracking-[0.2em] mt-[20px] pl-[8%]"
-                                   href="#">EL PROYECTO
+                                   href="el-proyecto.php">EL PROYECTO
                                 </a>
                             </li>
                             <li>
                                 <a onclick="closeNav()"
                                    class="flex py-4 font-semibold text-white font-avenir text-[18px] tracking-[0.2em] mt-[20px]"
-                                   href="#">LA EXPERIENCIA
+                                   href="la-experiencia.php">LA EXPERIENCIA
                                 </a>
                             </li>
                             <li>
@@ -172,18 +173,48 @@
     </div>
 </section>
 
-<!-- SECTION NIÑO -->
+<!-- CAROUSEL -->
 
-<section
-        class="bg-cover bg-bottom bg-no-repeat bg-enterratorio pt-[45vh] h-[110vh] md:bg-enterratorio md:pt-[55vh] md:h-screen xl:pt-[60vh]">
-    <div class="container mx-auto flex flex-col items-center px-[40px] md:px-0">
-        <div class="md:w-8/12">
-            <h3 class="text-center font-light italic text-white font-avenir text-[20px] leading-[32px] md:text-[20px] md:leading-[28px] xl:text-[22px] xl:leading-[30px] 2xl:text-[28px] 2xl:leading-[40px]">
-                "En lo más alto de la montaña, tras incontables días de caminata y habiendo atravesado numerosos pueblos
-                y paisajes, un niño de coloridas ropas, con el rostro pintado de rojo y amarillo, el cabello peinado con
-                muchas trenzas y la cabeza coronada con grandes plumas, deja este mundo para reunirse con los dioses, y
-                velar desde las alturas por su pueblo y por su gente."</h3>
+<section>
+    <div id="animation-carousel" class="relative w-full" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative overflow-hidden md:h-[700px] 2xl:h-[920px]">
+            <!-- Item 1 -->
+            <div class="hidden duration-200 ease-linear bg-slider-1 bg-cover bg-bottom bg-no-repeat flex flex-col align-middle items-center justify-center" data-carousel-item>
+
+                <h2 class="font-avenir text-center text-white md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black ">¿Eres docente y quieres <br>tener la experiencia virtual <br>con tu curso?</h2>
+                <br>
+                <a class="font-avenir items-center text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
+                   href="#"
+                   target="_blank">INFÓRMATE AQUÍ</a>
+
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-200 ease-linear bg-slider-2 bg-cover bg-bottom bg-no-repeat flex flex-col align-middle items-center justify-center" data-carousel-item>
+                <h2 class="font-avenir text-center text-white md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black ">¿Quieres venir en familia <br>o con tus amigos?</h2>
+                <br>
+                <a class="font-avenir items-center text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
+                   href="#"
+                   target="_blank">INSCRÍBETE AQUÍ</a>
+            </div>
         </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+        </button>
+        <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+        </button>
     </div>
 </section>
 
@@ -273,7 +304,7 @@
 <section class="bg-[#151515] py-[40px] md:py-[50px] 2xl:py-[80px]">
     <div class="container mx-auto">
         <div class="flex flex-row items-center justify-center">
-            <div class="flex flex-col items-center justify-center md:flex-row xl:w-8/12">
+            <div class="flex flex-col items-center justify-center md:flex-row xl:w-full">
                 <img alt="Logo El Niño" class="h-[75px] md:h-[65px] xl:h-[80px] 2xl:h-[100px]"
                      src="assets/img/logo-nino.svg">
 
@@ -288,6 +319,10 @@
                 <a href="https://comunicaciones.uc.cl/" target="_blank"><img alt="Logo Coporación"
                                                                              class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px"
                                                                              src="assets/img/fac-comunicacion.svg"></a>
+                <div class="flex flex-col justify-items-center align-middle ml-[40px] items-end">
+                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid">¿Eres docente? Coordina una vista</a>
+                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid">¿Quieres participar?</a>
+                </div>
             </div>
         </div>
     </div>
@@ -308,6 +343,7 @@
 
 <!-- JQ FLOWBITE -->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
 <script src="assets/jq/navbar.js"></script>
 
@@ -315,7 +351,6 @@
     function openNav() {
         document.getElementById("sidebar").style.width = "100%";
     }
-
     function closeNav() {
         document.getElementById("sidebar").style.width = "0";
     }
