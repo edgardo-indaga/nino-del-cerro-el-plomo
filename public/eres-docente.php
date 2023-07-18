@@ -3,8 +3,8 @@
 <?php include 'assets/layout/variables.php'; ?>
 
 <head>
-    <title><?php echo $titulo ?> | <?php echo $proyecto ?></title>
     <?php include 'assets/layout/head.php'; ?>
+    <title><?php echo $titulo ?> | <?php echo $docente ?></title>
 </head>
 
 <body>
@@ -20,4 +20,5 @@
 
 </body>
 </html>
+
 
