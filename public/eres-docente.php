@@ -13,7 +13,7 @@
 <?php include 'assets/layout/header.php'; ?>
 <!-- IMAGEN PRINCIPAL HOME -->
 
-<section>
+<section class="h-screen bg-cover bg-bottom bg-no-repeat z-[10] bg-docente mt-[-92px] md:bg-docente md:mt-[-100px] md:h-screen xl:mt-[-150px]">
 
 </section>
 
