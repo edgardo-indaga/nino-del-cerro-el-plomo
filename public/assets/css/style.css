@@ -753,6 +753,10 @@ video {
   margin-top: 40px;
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .inline {
   display: inline;
 }
@@ -763,6 +767,10 @@ video {
 
 .inline-flex {
   display: inline-flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -885,6 +893,10 @@ video {
   width: 100%;
 }
 
+.w-8\/12 {
+  width: 66.666667%;
+}
+
 .-translate-x-full {
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -898,12 +910,24 @@ video {
   cursor: pointer;
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-end {
@@ -924,6 +948,14 @@ video {
 
 .justify-items-center {
   justify-items: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .overflow-hidden {
@@ -1014,6 +1046,10 @@ video {
 
 .bg-white\/30 {
   background-color: rgb(255 255 255 / 0.3);
+}
+
+.bg-\[\] {
+  background-color: ;
 }
 
 .bg-docente {
@@ -1108,6 +1144,11 @@ video {
   padding-bottom: 50px;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1166,6 +1207,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .align-middle {
@@ -1232,6 +1277,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -1303,6 +1352,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#141414\] {
+  --tw-text-opacity: 1;
+  color: rgb(20 20 20 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1685,6 +1739,10 @@ ul.breadcrumb li span {
     height: 100vh;
   }
 
+  .md\:h-\[110px\] {
+    height: 110px;
+  }
+
   .md\:w-3\/12 {
     width: 25%;
   }
@@ -1727,6 +1785,26 @@ ul.breadcrumb li span {
 
   .md\:w-\[80px\] {
     width: 80px;
+  }
+
+  .md\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .md\:w-\[140px\] {
+    width: 140px;
+  }
+
+  .md\:w-\[90px\] {
+    width: 90px;
+  }
+
+  .md\:w-\[100px\] {
+    width: 100px;
+  }
+
+  .md\:w-\[246px\] {
+    width: 246px;
   }
 
   .md\:flex-row {
@@ -1818,6 +1896,26 @@ ul.breadcrumb li span {
     padding-bottom: 50px;
   }
 
+  .md\:py-\[70px\] {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .md\:py-\[\] {
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .md\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md\:py-\[80px\] {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1854,6 +1952,26 @@ ul.breadcrumb li span {
     padding-top: 55vh;
   }
 
+  .md\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .md\:pl-\[30px\] {
+    padding-left: 30px;
+  }
+
+  .md\:pr-\[10px\] {
+    padding-right: 10px;
+  }
+
+  .md\:pl-\[20px\] {
+    padding-left: 20px;
+  }
+
+  .md\:pl-\[25px\] {
+    padding-left: 25px;
+  }
+
   .md\:text-\[14px\] {
     font-size: 14px;
   }
@@ -1878,6 +1996,30 @@ ul.breadcrumb li span {
     font-size: 46px;
   }
 
+  .md\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .md\:text-\[65px\] {
+    font-size: 65px;
+  }
+
+  .md\:text-\[55px\] {
+    font-size: 55px;
+  }
+
+  .md\:text-\[52px\] {
+    font-size: 52px;
+  }
+
+  .md\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .md\:text-\[26px\] {
+    font-size: 26px;
+  }
+
   .md\:font-black {
     font-weight: 900;
   }
@@ -1896,6 +2038,22 @@ ul.breadcrumb li span {
 
   .md\:leading-\[52px\] {
     line-height: 52px;
+  }
+
+  .md\:leading-\[58px\] {
+    line-height: 58px;
+  }
+
+  .md\:leading-\[60px\] {
+    line-height: 60px;
+  }
+
+  .md\:leading-\[32px\] {
+    line-height: 32px;
+  }
+
+  .md\:leading-\[30px\] {
+    line-height: 30px;
   }
 
   .md\:tracking-\[0\.2em\] {
@@ -2174,6 +2332,11 @@ ul.breadcrumb li span {
     padding-bottom: 80px;
   }
 
+  .\32xl\:py-\[100px\] {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .\32xl\:pt-\[100px\] {
     padding-top: 100px;
   }
@@ -2222,6 +2385,10 @@ ul.breadcrumb li span {
     font-size: 76px;
   }
 
+  .\32xl\:text-\[70px\] {
+    font-size: 70px;
+  }
+
   .\32xl\:leading-\[40px\] {
     line-height: 40px;
   }
@@ -2232,5 +2399,9 @@ ul.breadcrumb li span {
 
   .\32xl\:leading-\[77px\] {
     line-height: 77px;
+  }
+
+  .\32xl\:leading-\[38px\] {
+    line-height: 38px;
   }
 }
