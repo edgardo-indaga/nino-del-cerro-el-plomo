@@ -59,7 +59,7 @@
 <section class="bg-[#53171A] md:py-[70px] 2xl:py-[100px]">
     <div class="container mx-auto">
         <div class="flex flex-col align-middle items-center justify-center">
-            <p class="font-avenir text-center text-[#D2BBA6] md:text-[18px] md:leading-[32px] 2xl:text-[25px] 2xl:leading-[38px]">Si deseas <strong>coordinar una visita</strong> con tu curso, puedes <br>comunicarte con Macarena Silva a través del siguiente <br>correo: <a href="mailto:msilva@cclb.cl" class="font-bold">msilva@cclb.cl</a> <br>¡Te esperamos!</p>
+            <p class="font-avenir text-center text-[#D2BBA6] md:text-[18px] md:leading-[32px] 2xl:text-[25px] 2xl:leading-[38px] tracking-wide">Si deseas <strong>coordinar una visita</strong> con tu curso, puedes <br>comunicarte con Macarena Silva a través del siguiente <br>correo: <a href="mailto:msilva@cclb.cl" class="font-bold hover:text-white">msilva@cclb.cl</a> <br>¡Te esperamos!</p>
         </div>
     </div>
 </section>
