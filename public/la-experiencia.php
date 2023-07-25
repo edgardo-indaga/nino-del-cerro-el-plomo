@@ -13,7 +13,19 @@
 <?php include 'assets/layout/header.php'; ?>
 <!-- IMAGEN PRINCIPAL HOME -->
 
-
+<section class="h-screen bg-cover bg-bottom bg-no-repeat z-[10] bg-la-experiencia mt-[-92px] md:bg-la-experiencia md:mt-[-100px] md:h-screen xl:mt-[-150px]">
+    <div class="container mx-auto">
+        <div class="flex flex-col justify-items-center align-middle items-center justify-center h-screen">
+            <div class="md:w-10/12">
+                <h3 class="text-[#d9c1ab] font-avenir font-medium text-center text-[28px] tracking-[0.2em] md:text-[30px] xl:text-[36px] md:tracking-[0.2em] 2xl:text-[40px] md:py-[40px]">LA EXPERIENCIA</h3>
+                <p class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px]">La experiencia virtual simula la ascensión al cerro El Plomo, mediante un <strong>recorrido guiado por Kuntur,</strong> el espíritu de un cóndor que habita en el mundo celestial de los incas. </p>
+                <p class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] md:pt-[20px]">El recorrido está compuesto por <strong>6 estaciones</strong> que emplazan al usuario en distintos puntos de la ruta, mediante la utilización de fotografías en 360°. En cada una de estas paradas se aborda un tema en particular, transmitiendo distintos conocimientos sobre la cultura y cosmovisión inca, por medio de recursos informativos, videos animados y juegos interactivos. </p>
+                <p class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] md:pt-[20px]">Finalmente, el usuario logrará entender cómo fue que el Niño del Cerro El Plomo llegó hasta la cumbre de la montaña y permaneció allí, casi inmutable por más de 500 años, hasta su descubrimiento. </p>
+                <p class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] md:pt-[20px]">A continuación, se presentan los contenidos educativos que se abordan en el recorrido.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- PRE-FOOTER & FOOTER -->
 <?php include 'assets/layout/footer.php';?>

@@ -753,10 +753,6 @@ video {
   margin-top: 40px;
 }
 
-.block {
-  display: block;
-}
-
 .inline {
   display: inline;
 }
@@ -993,6 +989,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#101010\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#151515\] {
   --tw-bg-opacity: 1;
   background-color: rgb(21 21 21 / var(--tw-bg-opacity));
@@ -1036,11 +1037,6 @@ video {
   background-color: rgb(255 255 255 / 0.3);
 }
 
-.bg-\[\#101010\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
-}
-
 .bg-docente {
   background-image: url('../img/bg-docente.png');
 }
@@ -1079,6 +1075,10 @@ video {
 
 .bg-slider-2 {
   background-image: url('../img/imagen-slider-02.png');
+}
+
+.bg-la-experiencia {
+  background-image: url('../img/bg-laexperiencia.png');
 }
 
 .bg-cover {
@@ -1341,6 +1341,11 @@ video {
   color: rgb(210 187 166 / var(--tw-text-opacity));
 }
 
+.text-\[\#d2bba6\] {
+  --tw-text-opacity: 1;
+  color: rgb(210 187 166 / var(--tw-text-opacity));
+}
+
 .text-\[\#d9c1ab\] {
   --tw-text-opacity: 1;
   color: rgb(217 193 171 / var(--tw-text-opacity));
@@ -1354,11 +1359,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#d2bba6\] {
-  --tw-text-opacity: 1;
-  color: rgb(210 187 166 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1675,8 +1675,7 @@ ul.breadcrumb li span {
     margin-right: 15px;
   }
 
-  .md\:my-\[40px\] {
-    margin-top: 40px;
+  .md\:mb-\[40px\] {
     margin-bottom: 40px;
   }
 
@@ -1704,6 +1703,10 @@ ul.breadcrumb li span {
     margin-top: 30px;
   }
 
+  .md\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
   .md\:mt-\[40vh\] {
     margin-top: 40vh;
   }
@@ -1712,20 +1715,16 @@ ul.breadcrumb li span {
     margin-top: 70px;
   }
 
-  .md\:mb-\[40px\] {
-    margin-bottom: 40px;
-  }
-
-  .md\:mt-\[40px\] {
-    margin-top: 40px;
-  }
-
   .md\:hidden {
     display: none;
   }
 
   .md\:h-\[100px\] {
     height: 100px;
+  }
+
+  .md\:h-\[180px\] {
+    height: 180px;
   }
 
   .md\:h-\[25vh\] {
@@ -1738,6 +1737,10 @@ ul.breadcrumb li span {
 
   .md\:h-\[550px\] {
     height: 550px;
+  }
+
+  .md\:h-\[600px\] {
+    height: 600px;
   }
 
   .md\:h-\[60vh\] {
@@ -1770,30 +1773,6 @@ ul.breadcrumb li span {
 
   .md\:h-screen {
     height: 100vh;
-  }
-
-  .md\:h-\[200px\] {
-    height: 200px;
-  }
-
-  .md\:h-\[150px\] {
-    height: 150px;
-  }
-
-  .md\:h-\[180px\] {
-    height: 180px;
-  }
-
-  .md\:h-\[800px\] {
-    height: 800px;
-  }
-
-  .md\:h-\[650px\] {
-    height: 650px;
-  }
-
-  .md\:h-\[600px\] {
-    height: 600px;
   }
 
   .md\:w-10\/12 {
@@ -1844,24 +1823,12 @@ ul.breadcrumb li span {
     width: 400px;
   }
 
-  .md\:w-\[80px\] {
-    width: 80px;
-  }
-
-  .md\:w-\[140px\] {
-    width: 140px;
-  }
-
-  .md\:w-\[90px\] {
-    width: 90px;
-  }
-
-  .md\:w-\[70px\] {
-    width: 70px;
-  }
-
   .md\:w-\[60px\] {
     width: 60px;
+  }
+
+  .md\:w-\[80px\] {
+    width: 80px;
   }
 
   .md\:flex-row {
@@ -1932,6 +1899,10 @@ ul.breadcrumb li span {
     background-image: url('../img/proyecto.jpg');
   }
 
+  .md\:bg-la-experiencia {
+    background-image: url('../img/bg-laexperiencia.png');
+  }
+
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1945,6 +1916,16 @@ ul.breadcrumb li span {
   .md\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .md\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .md\:py-\[100px\] {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .md\:py-\[10px\] {
@@ -1982,18 +1963,12 @@ ul.breadcrumb li span {
     padding-bottom: 80px;
   }
 
-  .md\:py-\[100px\] {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .md\:px-\[60px\] {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:pb-\[100px\] {
+    padding-bottom: 100px;
   }
 
   .md\:pl-\[25px\] {
@@ -2006,6 +1981,10 @@ ul.breadcrumb li span {
 
   .md\:pr-\[20px\] {
     padding-right: 20px;
+  }
+
+  .md\:pt-\[100px\] {
+    padding-top: 100px;
   }
 
   .md\:pt-\[10px\] {
@@ -2036,28 +2015,12 @@ ul.breadcrumb li span {
     padding-top: 55vh;
   }
 
-  .md\:pt-\[70px\] {
-    padding-top: 70px;
-  }
-
-  .md\:pt-\[90px\] {
-    padding-top: 90px;
-  }
-
-  .md\:pt-\[60px\] {
-    padding-top: 60px;
-  }
-
   .md\:pt-\[80px\] {
     padding-top: 80px;
   }
 
-  .md\:pb-\[100px\] {
-    padding-bottom: 100px;
-  }
-
-  .md\:pt-\[100px\] {
-    padding-top: 100px;
+  .md\:pt-\[90px\] {
+    padding-top: 90px;
   }
 
   .md\:text-\[14px\] {
@@ -2076,6 +2039,10 @@ ul.breadcrumb li span {
     font-size: 20px;
   }
 
+  .md\:text-\[28px\] {
+    font-size: 28px;
+  }
+
   .md\:text-\[30px\] {
     font-size: 30px;
   }
@@ -2086,10 +2053,6 @@ ul.breadcrumb li span {
 
   .md\:text-\[52px\] {
     font-size: 52px;
-  }
-
-  .md\:text-\[28px\] {
-    font-size: 28px;
   }
 
   .md\:font-black {
@@ -2108,6 +2071,10 @@ ul.breadcrumb li span {
     line-height: 32px;
   }
 
+  .md\:leading-\[36px\] {
+    line-height: 36px;
+  }
+
   .md\:leading-\[48px\] {
     line-height: 48px;
   }
@@ -2118,10 +2085,6 @@ ul.breadcrumb li span {
 
   .md\:leading-\[60px\] {
     line-height: 60px;
-  }
-
-  .md\:leading-\[36px\] {
-    line-height: 36px;
   }
 
   .md\:tracking-\[0\.2em\] {
@@ -2342,6 +2305,10 @@ ul.breadcrumb li span {
     visibility: visible;
   }
 
+  .\32xl\:mb-\[60px\] {
+    margin-bottom: 60px;
+  }
+
   .\32xl\:mt-\[100px\] {
     margin-top: 100px;
   }
@@ -2352,10 +2319,6 @@ ul.breadcrumb li span {
 
   .\32xl\:mt-\[45vh\] {
     margin-top: 45vh;
-  }
-
-  .\32xl\:mb-\[60px\] {
-    margin-bottom: 60px;
   }
 
   .\32xl\:h-\[100px\] {
@@ -2374,20 +2337,20 @@ ul.breadcrumb li span {
     height: 55vh;
   }
 
-  .\32xl\:h-\[80vh\] {
-    height: 80vh;
-  }
-
-  .\32xl\:h-\[920px\] {
-    height: 920px;
-  }
-
   .\32xl\:h-\[650px\] {
     height: 650px;
   }
 
   .\32xl\:h-\[750px\] {
     height: 750px;
+  }
+
+  .\32xl\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .\32xl\:h-\[920px\] {
+    height: 920px;
   }
 
   .\32xl\:w-4\/12 {
@@ -2402,29 +2365,35 @@ ul.breadcrumb li span {
     width: 130px;
   }
 
-  .\32xl\:w-\[30\%\] {
-    width: 30%;
-  }
-
   .\32xl\:w-\[140px\] {
     width: 140px;
   }
 
-  .\32xl\:w-\[100px\] {
-    width: 100px;
-  }
-
-  .\32xl\:w-\[90px\] {
-    width: 90px;
+  .\32xl\:w-\[30\%\] {
+    width: 30%;
   }
 
   .\32xl\:w-\[80px\] {
     width: 80px;
   }
 
+  .\32xl\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .\32xl\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   .\32xl\:py-\[100px\] {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .\32xl\:py-\[120px\] {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .\32xl\:py-\[160px\] {
@@ -2437,18 +2406,20 @@ ul.breadcrumb li span {
     padding-bottom: 80px;
   }
 
-  .\32xl\:py-\[120px\] {
-    padding-top: 120px;
+  .\32xl\:pb-\[120px\] {
     padding-bottom: 120px;
-  }
-
-  .\32xl\:px-\[100px\] {
-    padding-left: 100px;
-    padding-right: 100px;
   }
 
   .\32xl\:pt-\[100px\] {
     padding-top: 100px;
+  }
+
+  .\32xl\:pt-\[110px\] {
+    padding-top: 110px;
+  }
+
+  .\32xl\:pt-\[120px\] {
+    padding-top: 120px;
   }
 
   .\32xl\:pt-\[26px\] {
@@ -2467,18 +2438,6 @@ ul.breadcrumb li span {
     padding-top: 90px;
   }
 
-  .\32xl\:pt-\[110px\] {
-    padding-top: 110px;
-  }
-
-  .\32xl\:pb-\[120px\] {
-    padding-bottom: 120px;
-  }
-
-  .\32xl\:pt-\[120px\] {
-    padding-top: 120px;
-  }
-
   .\32xl\:text-\[20px\] {
     font-size: 20px;
   }
@@ -2489,6 +2448,10 @@ ul.breadcrumb li span {
 
   .\32xl\:text-\[28px\] {
     font-size: 28px;
+  }
+
+  .\32xl\:text-\[35px\] {
+    font-size: 35px;
   }
 
   .\32xl\:text-\[38px\] {
@@ -2507,14 +2470,6 @@ ul.breadcrumb li span {
     font-size: 76px;
   }
 
-  .\32xl\:text-\[36px\] {
-    font-size: 36px;
-  }
-
-  .\32xl\:text-\[35px\] {
-    font-size: 35px;
-  }
-
   .\32xl\:leading-\[38px\] {
     line-height: 38px;
   }
@@ -2523,15 +2478,15 @@ ul.breadcrumb li span {
     line-height: 40px;
   }
 
+  .\32xl\:leading-\[45px\] {
+    line-height: 45px;
+  }
+
   .\32xl\:leading-\[76px\] {
     line-height: 76px;
   }
 
   .\32xl\:leading-\[77px\] {
     line-height: 77px;
-  }
-
-  .\32xl\:leading-\[45px\] {
-    line-height: 45px;
   }
 }

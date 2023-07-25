@@ -13,7 +13,7 @@
 <?php include 'assets/layout/header.php'; ?>
 <!-- IMAGEN PRINCIPAL HOME -->
 
-<section class="h-screen bg-cover bg-bottom bg-no-repeat z-[10] bg-docente mt-[-92px] md:bg-docente md:mt-[-100px] md:h-screen xl:mt-[-150px] ">
+<section class="h-screen bg-cover bg-bottom bg-no-repeat z-[10] bg-docente mt-[-92px] md:bg-docente md:mt-[-100px] md:h-screen xl:mt-[-150px]">
     <div class="flex flex-col justify-items-center align-middle items-center justify-center h-screen">
         <h1 class="font-avenir text-center text-white font-bold md:text-[52px] 2xl:text-[65px] md:leading-[60px] 2xl:leading-[76px] shadow-[0, 0, 0, 0.16]">¿Eres docente y quieres <br>tener la experiencia virtual <br>con tu curso?</h1>
     </div>
