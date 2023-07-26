@@ -123,7 +123,7 @@
 
             <div class="flex flex-row items-center justify-center pt-[40px] md:pt-[40px] xl:pt-[60px] 2xl:pt-[90px]">
                 <a class="font-avenir items-center text-[#621416] bg-[#d9c1ab] md:bg-transparent md:text-[#d9c1ab] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#d9c1ab] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#d9c1ab] hover:text-[#621416] tracking-[0.1em]"
-                   href="#"
+                   href="el-proyecto.php"
                    target="_blank">CONOCE MÁS</a>
             </div>
 
@@ -157,7 +157,7 @@
             </div>
             <div class="flex flex-row items-center justify-center pt-[30px] md:pt-[30px] xl:pt-[50px] 2xl:pt-[90px]">
                 <a class="font-avenir items-center text-[#621416] bg-[#d9c1ab] md:bg-transparent md:text-[#d9c1ab] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#d9c1ab] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#d9c1ab] hover:text-[#621416] tracking-[0.1em]"
-                   href="#"
+                   href="la-experiencia.php"
                    target="_blank">CONOCE MÁS</a>
             </div>
             <div class="flex flex-col items-center justify-center pt-[30px] md:pt-[30px] xl:pt-[50px] 2xl:pt-[90px]">
