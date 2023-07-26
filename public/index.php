@@ -58,22 +58,20 @@
 <section>
     <div id="animation-carousel" class="relative w-full" data-carousel="static">
         <!-- Carousel wrapper -->
-        <div class="relative overflow-hidden md:h-[700px] 2xl:h-[920px]">
+        <div class="relative overflow-hidden h-[650px] md:h-[700px] 2xl:h-[920px]">
             <!-- Item 1 -->
             <div class="hidden duration-200 ease-linear bg-slider-1 bg-cover bg-bottom bg-no-repeat flex flex-col align-middle items-center justify-center" data-carousel-item>
 
-                <h2 class="font-avenir text-center text-white md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black ">¿Eres docente y quieres <br>tener la experiencia virtual <br>con tu curso?</h2>
+                <h2 class="font-avenir text-center text-white text-[30px] leading-[38px] md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black px-[40px] ">¿Eres docente y quieres <br>tener la experiencia virtual <br>con tu curso?</h2>
                 <br>
-                <a class="font-avenir items-center text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
-                   href="eres-docente.php"
-                   target="_blank">INFÓRMATE AQUÍ</a>
-
+                <a class="font-avenir items-center text-[#69322a] md:text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[12px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
+                   href="eres-docente.php">INFÓRMATE AQUÍ</a>
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-200 ease-linear bg-slider-2 bg-cover bg-bottom bg-no-repeat flex flex-col align-middle items-center justify-center" data-carousel-item>
-                <h2 class="font-avenir text-center text-white md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black ">¿Quieres venir en familia <br>o con tus amigos?</h2>
+                <h2 class="font-avenir text-center text-white text-[30px] leading-[38px] md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black px-[40px] ">¿Quieres venir en familia <br>o con tus amigos?</h2>
                 <br>
-                <a class="font-avenir items-center text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
+                <a class="font-avenir items-center text-[#69322a] md:text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[12px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
                    href="#"
                    target="_blank">INSCRÍBETE AQUÍ</a>
             </div>
@@ -163,7 +161,7 @@
                    target="_blank">CONOCE MÁS</a>
             </div>
             <div class="flex flex-col items-center justify-center pt-[30px] md:pt-[30px] xl:pt-[50px] 2xl:pt-[90px]">
-                <p class="font-avenir text-[16px] md:text-[18px] 2xl:text-[20px] text-[#ffffff] font-normal leading-[40px]">* El fabricante recomienda que el uso de los lentes de realidad virtual sea para personas mayores de 13 años.</p>
+                <p class="font-avenir text-[#ffffff] font-normal text-[16px] leading-[24px] text-center md:leading-[40px] md:text-[18px] 2xl:text-[20px]  ">* El fabricante recomienda que el uso de los lentes de realidad virtual sea para personas mayores de 13 años.</p>
             </div>
         </div>
     </div>

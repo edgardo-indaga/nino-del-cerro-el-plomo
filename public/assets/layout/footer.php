@@ -3,6 +3,12 @@
     <div class="container mx-auto">
         <div class="flex flex-row items-center justify-center">
             <div class="flex flex-col items-center justify-center md:flex-row xl:w-full">
+
+                <div class="links-footer-mobile flex flex-col justify-items-center align-middle  items-center pb-[20px]">
+                    <a href="eres-docente.php" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Eres docente? Coordina una vista</a>
+                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
+                </div>
+
                 <img alt="Logo El Niño" class="h-[75px] md:h-[65px] xl:h-[80px] 2xl:h-[100px]"
                      src="assets/img/logo-nino.svg">
 
@@ -17,10 +23,11 @@
                 <a href="https://comunicaciones.uc.cl/" target="_blank"><img alt="Logo Coporación"
                                                                              class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px"
                                                                              src="assets/img/fac-comunicacion.svg"></a>
-                <div class="flex flex-col justify-items-center align-middle ml-[40px] items-end">
+                <div class="links-footer-desktop flex flex-col justify-items-center align-middle md:ml-[40px] items-end">
                     <a href="eres-docente.php" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Eres docente? Coordina una vista</a>
                     <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
                 </div>
+
             </div>
         </div>
     </div>
@@ -50,7 +57,9 @@
 </button>
 
 <!-- JAVASCRIPT -->
-
+<!-- Agrega esto en el head de tu HTML si no tienes ya jQuery incluido -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- OTROS JAVASCRIPT-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
 <script src="assets/js/navbar.js"></script>

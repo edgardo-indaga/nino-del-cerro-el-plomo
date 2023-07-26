@@ -27,6 +27,70 @@
     </div>
 </section>
 
+<section class="bg-[#D2BBA6] md:py-[100px] 2xl:py-[120px]">
+    <div class="container mx-auto">
+        <div class="flex flex-col">
+
+            <div class="mb-[40px]">
+                <ul class="flex flex-wrap font-normal text-center font-avenir md:text-[22px] 2xl:text-[25px]" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                    <li class="tab-estaciones" role="presentation">
+                        <button class="inline-block py-4 md:px-[25px] 2xl:px-[40px] border-b-[6px]" id="estacionuno-tab" data-tabs-target="#estacionuno" type="button" role="tab" aria-controls="estacionuno" aria-selected="false">ESTACIÓN 1</button>
+                    </li>
+                    <li class="tab-estaciones" role="presentation">
+                        <button class="inline-block py-4 md:px-[25px] 2xl:px-[40px] border-b-[6px]" id="estaciondos-tab" data-tabs-target="#estaciondos" type="button" role="tab" aria-controls="estaciondos" aria-selected="false">ESTACIÓN 2</button>
+                    </li>
+                    <li class="tab-estaciones" role="presentation">
+                        <button class="inline-block py-4 md:px-[25px] 2xl:px-[40px] border-b-[6px]" id="estaciontres-tab" data-tabs-target="#estaciontres" type="button" role="tab" aria-controls="estaciontres" aria-selected="flase">ESTACIÓN 3</button>
+                    </li>
+                    <li class="tab-estaciones" role="presentation">
+                        <button class="inline-block py-4 md:px-[25px] 2xl:px-[40px] border-b-[6px]" id="estacioncuatro-tab" data-tabs-target="#estacioncuatro" type="button" role="tab" aria-controls="estacioncuatro" aria-selected="false">ESTACIÓN 4</button>
+                    </li>
+                    <li class="tab-estaciones" role="presentation">
+                        <button class="inline-block py-4 md:px-[25px] 2xl:px-[40px] border-b-[6px]" id="estacioncinco-tab" data-tabs-target="#estacioncinco" type="button" role="tab" aria-controls="estacioncinco" aria-selected="false">ESTACIÓN 5</button>
+                    </li>
+                    <li class="tab-estaciones" role="presentation">
+                        <button class="inline-block py-4 md:px-[25px] 2xl:px-[40px] border-b-[6px]" id="estacionseis-tab" data-tabs-target="#estacionseis" type="button" role="tab" aria-controls="estacionseis" aria-selected="false">ESTACIÓN 6</button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CONTENIDO DE TABS -->
+            <div id="myTabContent">
+                <div class="hidden" id="estacionuno" role="tabpanel" aria-labelledby="estacionuno-tab">
+                    <?php include 'assets/layout/estacionuno.php'?>
+                </div>
+                <div class="hidden" id="estaciondos" role="tabpanel" aria-labelledby="estaciondos-tab">
+                    <?php include 'assets/layout/estaciondos.php'?>
+                </div>
+                <div class="hidden" id="estaciontres" role="tabpanel" aria-labelledby="estaciontres-tab">
+                    <?php include 'assets/layout/estaciontres.php'?>
+                </div>
+                <div class="hidden" id="estacioncuatro" role="tabpanel" aria-labelledby="estacioncuatro-tab">
+                    <?php include 'assets/layout/estacioncuatro.php'?>
+                </div>
+
+                <div class="hidden" id="estacioncinco" role="tabpanel" aria-labelledby="estacioncinco-tab">
+                    <?php include 'assets/layout/estacioncinco.php'?>
+                </div>
+
+                <div class="hidden" id="estacionseis" role="tabpanel" aria-labelledby="estacionseis-tab">
+                    <?php include 'assets/layout/estacionseis.php'?>
+                </div>
+
+            </div>
+
+            <hr class="border-[#707070] border-s-[1px] bg-[#707070] opacity-80 mt-[60px]">
+
+            <!-- Navigation buttons
+            <div class="flex justify-between mt-4">
+                <button class="btn-prev button" aria-label="Anterior">Anterior</button>
+                <button class="btn-next button" aria-label="Siguiente">Siguiente</button>
+            </div>-->
+
+        </div>
+    </div>
+</section>
+
 <!-- PRE-FOOTER & FOOTER -->
 <?php include 'assets/layout/footer.php';?>
 
