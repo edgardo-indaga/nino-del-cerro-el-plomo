@@ -167,6 +167,17 @@
     </div>
 </section>
 
+<!-- SECTION VIDEO -->
+
+<section class="md:h-auto">
+    <iframe width="100%" height="650px" src="https://www.youtube.com/embed/G343SsbfvTQ?controls=0" title="Detrás de escena de la realidad virtual - Acércate al Niño del Cerro El Plomo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <video class="w-full h-auto max-w-full" controls>
+        <source src="" type="youtube">
+
+    </video>
+</section>
+
 <!-- SECTION GALLERIA -->
 
 <section class="h-screen bg-cover bg-bottom bg-no-repeat bg-galleria md:bg-galleria md:h-screen">

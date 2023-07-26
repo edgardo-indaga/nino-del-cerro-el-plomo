@@ -883,6 +883,18 @@ video {
   height: 250px;
 }
 
+.h-\[230px\] {
+  height: 230px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-0 {
+  height: 0px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -961,6 +973,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .-translate-x-full {
@@ -1385,6 +1401,22 @@ video {
 
 .pt-\[80px\] {
   padding-top: 80px;
+}
+
+.pl-\[22\%\] {
+  padding-left: 22%;
+}
+
+.pl-\[18\%\] {
+  padding-left: 18%;
+}
+
+.pl-\[15\%\] {
+  padding-left: 15%;
+}
+
+.pl-\[12\%\] {
+  padding-left: 12%;
 }
 
 .text-center {

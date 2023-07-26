@@ -65,7 +65,7 @@
                             <li>
                                 <a onclick="closeNav()"
                                    class="flex py-4 font-semibold text-white font-avenir text-[18px] tracking-[0.2em] mt-[20px] pl-[30%]"
-                                   href="inicio.php">INICIO
+                                   href="index.php">INICIO
                                 </a>
                             </li>
                             <li>
@@ -82,8 +82,8 @@
                             </li>
                             <li>
                                 <a onclick="closeNav()"
-                                   class="flex py-4 font-semibold text-white font-avenir text-[18px] tracking-[0.2em] mt-[20px] pl-[24%]"
-                                   href="/360/index.htm">GALERÍA
+                                   class="flex py-4 font-semibold text-white font-avenir text-[18px] tracking-[0.2em] mt-[20px] pl-[12%]"
+                                   href="/360/index.htm">GALERÍA 360
                                 </a>
                             </li>
                         </ul>

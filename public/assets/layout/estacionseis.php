@@ -9,14 +9,14 @@
     </div>
     <div class="flex flex-col">
         <h3  class="text-[#1a1a1a] font-avenir font-semibold text-[22px] md:text-[24px] 2xl:text-[32px] pb-[20px] px-[20px] md:px-0">El ajuar del Niño estaba compuesto por los siguientes objetos:</h3>
-        <img src="assets/img/estaciones/estacion6-02.png" alt="Estacion 6" class="h-[350px] object-cover md:h-auto pb-[20px]">
+        <img src="assets/img/estaciones/estacion6-02.png" alt="Estacion 6" class="h-[230px] object-cover md:h-auto pb-[20px]">
         <p class="text-[#151515] font-avenir italic text-[14px] md:text-[14px] 2xl:text-[18px] text-end opacity-80 py-[10px] px-[20px] md:px-0">Fuente fotografías: Museo Nacional de Historia Natural</p>
         <p class="text-[#1a1a1a] font-avenir font-light text-[22px] md:text-[22px] 2xl:text-[30px] px-[20px] md:px-0 py-[30px]">En otras capacochas encontradas, la cantidad de objetos del ajuar era significativamente mayor. Esto hace pensar a los investigadores que el ajuar del Niño del cerro El Plomo probablemente incluía más objetos, y que estos fueron saqueados en algún momento.
         </p>
     </div>
     <div class="flex flex-col">
         <h3 class="text-[#1a1a1a] font-avenir font-semibold text-[22px] md:text-[24px] 2xl:text-[32px] pb-[20px] px-[20px] md:px-0">El Niño fue encontrado de la siguiente forma:</h3>
-        <img src="assets/img/estaciones/estacion6-03.png" alt="Estacion 6" class="h-[250px] object-cover md:h-auto pb-[20px]">
+        <img src="assets/img/estaciones/estacion6-03.png" alt="Estacion 6" class="h-[230px] object-cover md:h-auto pb-[20px]">
         <p class="text-[#151515] font-avenir italic text-[14px] md:text-[14px] 2xl:text-[18px] text-end opacity-80 py-[10px] px-[20px] md:px-0">Fuente fotografías: Museo Nacional de Historia Natural</p>
         <p class="text-[#1a1a1a] font-avenir font-light text-[22px] md:text-[22px] 2xl:text-[30px] px-[20px] md:px-0 py-[30px]">A partir de su vestimenta y adornos, se piensa que el Niño provenía de algún lugar del Collasuyo que correspondía a la zona sur del Imperio.
         </p>
