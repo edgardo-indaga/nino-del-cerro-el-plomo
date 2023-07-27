@@ -12,17 +12,18 @@
                 <img alt="Logo El Niño" class="h-[75px] md:h-[65px] xl:h-[80px] 2xl:h-[100px]"
                      src="assets/img/logo-nino.svg">
 
-                <a href="https://corporacionculturaldelobarnechea.cl/home" target="_blank"><img alt="Logo Coporación"
-                                                                                                class="h-[80px] pt-[10px] md:h-[70px] md:pt-[10px] xl:h-[90px] xl:pt-[15px] xl:pl-[20px] 2xl:h-[100px"
-                                                                                                src="assets/img/logo-corporacion.svg"></a>
+                <a href="https://corporacionculturaldelobarnechea.cl/home" target="_blank">
+                    <img alt="Logo Coporación" class="h-[80px] pt-[10px] md:h-[70px] md:pt-[10px] xl:h-[90px] xl:pt-[15px] xl:pl-[20px] 2xl:h-[100px" src="assets/img/logo-corporacion.svg">
+                </a>
 
-                <a href="https://www.mnhn.gob.cl/" target="_blank"><img alt="Logo Coporación"
-                                                                        class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px"
-                                                                        src="assets/img/museo.png"></a>
+                <a href="https://www.mnhn.gob.cl/" target="_blank">
+                    <img alt="Logo Coporación" class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px" src="assets/img/museo.png">
+                </a>
 
-                <a href="https://comunicaciones.uc.cl/" target="_blank"><img alt="Logo Coporación"
-                                                                             class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px"
-                                                                             src="assets/img/fac-comunicacion.svg"></a>
+                <a href="https://comunicaciones.uc.cl/" target="_blank">
+                    <img alt="Logo Coporación" class="h-[75px] pt-[10px] md:h-[65px] xl:h-[80px] xl:pt-[10px] xl:pl-[20px] 2xl:h-[100px" src="assets/img/fac-comunicacion.svg">
+                </a>
+
                 <div class="links-footer-desktop flex flex-col justify-items-center align-middle md:ml-[40px] items-end">
                     <a href="eres-docente.php" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Eres docente? Coordina una vista</a>
                     <a href="https://actividadeslobarnechea.cl/secciones/1349" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
@@ -40,8 +41,8 @@
         <div class="flex flex-col items-center">
             <p class="font-light text-white font-avenir text-[16px] md:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                 Desarrollado por <a class="font-medium hover:text-[#812C27]" href="https://indaga.me" target="_blank">Indaga</a>
-                e <a class="font-medium hover:text-[#812C27]" href="https://invadelab.cl/"
-                     target="_blank">Invadelab</a></p>
+                e <a class="font-medium hover:text-[#812C27]" href="https://invadelab.cl/" target="_blank">Invadelab</a>
+            </p>
         </div>
     </div>
 </footer>
