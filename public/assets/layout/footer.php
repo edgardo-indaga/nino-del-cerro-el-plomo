@@ -6,7 +6,7 @@
 
                 <div class="links-footer-mobile flex flex-col justify-items-center align-middle  items-center pb-[20px]">
                     <a href="eres-docente.php" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Eres docente? Coordina una vista</a>
-                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
+                    <a href="https://actividadeslobarnechea.cl/secciones/1349" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
                 </div>
 
                 <img alt="Logo El Niño" class="h-[75px] md:h-[65px] xl:h-[80px] 2xl:h-[100px]"
@@ -25,7 +25,7 @@
                                                                              src="assets/img/fac-comunicacion.svg"></a>
                 <div class="links-footer-desktop flex flex-col justify-items-center align-middle md:ml-[40px] items-end">
                     <a href="eres-docente.php" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Eres docente? Coordina una vista</a>
-                    <a href="#" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
+                    <a href="https://actividadeslobarnechea.cl/secciones/1349" class="text-[#d9c1ab] font-avenir text-[16px] underline decoration-solid hover:text-[#ffffff]">¿Quieres participar?</a>
                 </div>
 
             </div>

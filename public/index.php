@@ -72,7 +72,7 @@
                 <h2 class="font-avenir text-center text-white text-[30px] leading-[38px] md:text-[46px] md:leading-[52px] 2xl:text-[65px] 2xl:leading-[76px] md:font-black px-[40px] ">¿Quieres venir en familia <br>o con tus amigos?</h2>
                 <br>
                 <a class="font-avenir items-center text-[#69322a] md:text-[#ffffff] bg-[#d9c1ab] md:bg-transparent md:text-[#ffffff] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#ffffff] py-[12px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#ffffff] hover:text-[#621416] tracking-[0.1em]"
-                   href="#"
+                   href="https://actividadeslobarnechea.cl/secciones/1349"
                    target="_blank">INSCRÍBETE AQUÍ</a>
             </div>
         </div>
@@ -169,14 +169,9 @@
 
 <!-- SECTION VIDEO -->
 
-<section class="md:h-auto">
+<!--<section class="md:h-auto">
     <iframe width="100%" height="650px" src="https://www.youtube.com/embed/G343SsbfvTQ?controls=0" title="Detrás de escena de la realidad virtual - Acércate al Niño del Cerro El Plomo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <video class="w-full h-auto max-w-full" controls>
-        <source src="" type="youtube">
-
-    </video>
-</section>
+</section>-->
 
 <!-- SECTION GALLERIA -->
 
