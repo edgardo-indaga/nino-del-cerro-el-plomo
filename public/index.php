@@ -42,12 +42,8 @@
                      src="assets/img/control.svg">
             </div>
             <div class="flex flex-col items-center pt-[40px] pb-[80px] md:h-[65vh] md:pt-[46px] md:w-8/12 md:pb-0 xl:h-[60vh] xl:pt-[50px] 2xl:pt-[80px]">
-                <h3 class="text-center font-light font-avenir text-[20px] leading-[32px] md:text-[20px] md:leading-[28px] xl:text-[22px] xl:leading-[30px] 2xl:text-[28px] 2xl:leading-[40px]">
-                    La experiencia inmersiva “El Niño del Cerro El Plomo” es un <strong>recorrido de realidad
-                        virtual</strong>, que permite a niños y niñas ascender a la cumbre del Cerro El Plomo para
-                    conocer
-                    la historia de un niño inca que fue encontrado en este lugar, tras haber sido ofrendado a los
-                    dioses, hace más de 500 años.</h3>
+                <h3 class="text-center font-light font-avenir text-[20px] leading-[32px] md:text-[20px] md:leading-[28px] xl:text-[22px] xl:leading-[30px] 2xl:text-[28px] 2xl:leading-[40px]">La experiencia inmersiva <strong>“El Niño del cerro El Plomo”</strong> es un recorrido de realidad virtual*, que permite ascender a la cumbre del cerro El Plomo para conocer la historia de un niño inca que fue encontrado en este lugar, tras haber sido ofrendado a los dioses, hace más de 500 años.</h3>
+                <h5 class="text-center font-light font-avenir text-[16px] leading-[32px] md:text-[16px] md:leading-[28px] xl:text-[18px] xl:leading-[30px] 2xl:text-[24px] 2xl:leading-[40px] md:pt-[40px]">*La experiencia es recomendada para personas mayores de 13 años</h5>
             </div>
         </div>
     </div>
@@ -111,15 +107,9 @@
             <img alt="Icono 2" class="md:h-[70vh] md:pt-[20px] 2xl:h-[80vh] 2xl:pt-[100px]" src="assets/img/img-02.png">
         </div>
         <div class="pt-[40px] md:pt-[40px] md:w-6/12 xl:pt-[70px] 2xl:pt-[90px]">
-            <h3 class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px]">
-                Esta experiencia surge en el marco del proyecto “Niño del Cerro El Plomo: Patrimonio cultural nacional”,
-                diseñado y ejecutado por la <strong>Corporación Cultural de Lo Barnechea</strong> y que considera
-                diversas estrategias para la divulgación y valoración de este hallazgo arqueológico, tanto en la comuna
-                de Lo Barnechea como en el resto del país.</h3>
+            <h3 class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px]">Esta experiencia surge en el marco del proyecto “Niño del cerro El Plomo: Patrimonio cultural nacional”, diseñado y ejecutado por la <strong>Corporación Cultural de Lo Barnechea</strong> y que considera diversas estrategias para la divulgación y valoración de este hallazgo arqueológico, tanto en la comuna de Lo Barnechea como en el resto del país.</h3>
 
-            <h3 class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] pt-[15px] md:text-[18px] md:leading-[28px] md:pt-[10px] xl:text-[19px] xl:leading-[30px] xl:pt-[15px] 2xl:text-[25px] 2xl:leading-[40px] 2xl:pt-[26px]">
-                El proyecto cuenta con el apoyo del <strong>Museo Nacional de Historia Natural y la Facultad de
-                    Comunicaciones de la Universidad Católica de Chile.</strong></h3>
+            <h3 class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] pt-[15px] md:text-[18px] md:leading-[28px] md:pt-[10px] xl:text-[19px] xl:leading-[30px] xl:pt-[15px] 2xl:text-[25px] 2xl:leading-[40px] 2xl:pt-[26px]">El proyecto cuenta con el apoyo del <strong>Museo Nacional de Historia Natural y la Universidad Católica de Chile, a través de su Facultad de Comunicaciones</strong></h3>
 
             <div class="flex flex-row items-center justify-center pt-[40px] md:pt-[40px] xl:pt-[60px] 2xl:pt-[90px]">
                 <a class="font-avenir items-center text-[#621416] bg-[#d9c1ab] md:bg-transparent md:text-[#d9c1ab] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#d9c1ab] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#d9c1ab] hover:text-[#621416] tracking-[0.1em]"
@@ -147,12 +137,7 @@
                     EXPERIENCIA</h3>
             </div>
             <div class="mt-[20px] md:mt-[20px] md:w-7/12 xl:mt-[36px] 2xl:mt-[42px]">
-                <h3 class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px]">
-                    La experiencia virtual está orientada a público general, con especial foco en niños y niñas. El
-                    recorrido simula la <strong>ascensión al cerro El Plomo</strong>, transportando al usuario a
-                    distintos puntos de la ruta. En cada uno de ellos se aborda, mediante recursos informativos, videos
-                    animados y juegos interactivos, una temática en particular sobre la cultura y cosmovisión inca,
-                    hasta llegar a conocer en la cumbre al Niño del Cerro El Plomo.
+                <h3 class="text-center font-normal text-white font-avenir text-[18px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px]">La experiencia virtual está orientada a público general, con especial foco en niños y niñas. El recorrido simula la <strong>ascensión al cerro El Plomo,</strong> transportando al usuario a distintos puntos de la ruta. En cada uno de ellos se aborda, mediante recursos informativos, videos animados y juegos interactivos, una temática en particular sobre la cultura y cosmovisión inca, hasta llegar a conocer en la cumbre al Niño del cerro El Plomo.
                 </h3>
             </div>
             <div class="flex flex-row items-center justify-center pt-[30px] md:pt-[30px] xl:pt-[50px] 2xl:pt-[90px]">
@@ -169,9 +154,14 @@
 
 <!-- SECTION VIDEO -->
 
-<!--<section class="md:h-auto">
-    <iframe width="100%" height="650px" src="https://www.youtube.com/embed/G343SsbfvTQ?controls=0" title="Detrás de escena de la realidad virtual - Acércate al Niño del Cerro El Plomo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</section>-->
+<section class="h-screen bg-cover bg-bottom bg-no-repeat bg-vd-youtube md:h-screen">
+    <div class="container mx-auto">
+        <div class="flex flex-col items-center justify-center h-screen">
+            <h3 class="text-[#ffffff] text-center font-avenir uppercase font-medium text-[26px] leading-[40px] tracking-[0.2em] md:text-[30px] md:leading-[44px] xl:text-[36px] md:tracking-[0.2em] 2xl:text-[40px] 2xl:leading-[54px]">¿Quieres saber cómo se hizo <br>esta experiencia?</h3>
+            <a class="font-avenir items-center text-[#FFFFFF] bg-[#d9c1ab] md:bg-transparent md:text-[#FFFFFF] text-[18px] md:text-[17px] xl:text-[18px] md:border-[1.5px] md:border-[#FFFFFF] py-[10px] md:py-[12px] xl:py-[14px] px-[30px] md:px-[36px] xl:px-[40px] rounded-[26px] hover:bg-[#FFFFFF] hover:text-[#54171A] tracking-[0.1em] mt-[50px] md:mt-[50px] 2xl:mt-[70px]" href="https://www.youtube.com/watch?v=G343SsbfvTQ" target="_blank">VER</a>
+        </div>
+    </div>
+</section>
 
 <!-- SECTION GALLERIA -->
 

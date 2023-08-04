@@ -20,9 +20,9 @@
             <div class="md:w-10/12">
                 <h3 class="text-[#d9c1ab] font-avenir font-medium text-center text-[28px] tracking-[0.2em] md:text-[30px] xl:text-[36px] md:tracking-[0.2em] 2xl:text-[40px] pt-[120px] pb-[30px] md:py-[40px]">LA EXPERIENCIA</h3>
 
-                <p class="text-center font-normal text-white font-avenir text-[20px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] px-[40px] md:px-0">La experiencia virtual simula la ascensión al cerro El Plomo, mediante un <strong>recorrido guiado por Kuntur,</strong> el espíritu de un cóndor que habita en el mundo celestial de los incas. </p>
+                <p class="text-center font-normal text-white font-avenir text-[20px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] px-[40px] md:px-0">La experiencia virtual simula la ascensión al cerro El Plomo, mediante un <strong>recorrido guiado por Kuntur,</strong> el espíritu de un cóndor que habita en el mundo celestial de los incas.</p>
                 <p class="text-center font-normal text-white font-avenir text-[20px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] pt-[30px] md:pt-[20px] px-[40px] md:px-0 pb-[20px] md:pb-0">El recorrido está compuesto por <strong>6 estaciones</strong> que emplazan al usuario en distintos puntos de la ruta, mediante la utilización de fotografías en 360°. En cada una de estas paradas se aborda un tema en particular, transmitiendo distintos conocimientos sobre la cultura y cosmovisión inca, por medio de recursos informativos, videos animados y juegos interactivos. </p>
-                <p class="text-center font-normal text-white font-avenir text-[20px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] pt-[30px] md:pt-[20px] px-[40px] md:px-0 pb-[20px] md:pb-0">Finalmente, el usuario logrará entender cómo fue que el Niño del Cerro El Plomo llegó hasta la cumbre de la montaña y permaneció allí, casi inmutable por más de 500 años, hasta su descubrimiento. </p>
+                <p class="text-center font-normal text-white font-avenir text-[20px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] pt-[30px] md:pt-[20px] px-[40px] md:px-0 pb-[20px] md:pb-0">Finalmente, el usuario logrará entender cómo fue que el Niño del cerro El Plomo llegó hasta la cumbre de la montaña y permaneció allí, casi inmutable por más de 500 años, hasta su descubrimiento. </p>
                 <p class="text-center font-normal text-white font-avenir text-[20px] leading-[30px] md:text-[18px] md:leading-[28px] xl:text-[19px] xl:leading-[30px] 2xl:text-[25px] 2xl:leading-[40px] pt-[30px] md:pt-[20px] px-[40px] md:px-0 pb-[40px] md:pb-0">A continuación, se presentan los contenidos educativos que se abordan en el recorrido.</p>
             </div>
         </div>
@@ -97,6 +97,58 @@
 
 <!-- PRE-FOOTER & FOOTER -->
 <?php include 'assets/layout/footer.php';?>
+
+<!-- Asegúrate de tener jQuery incluido en tu proyecto -->
+
+<script>
+    // Al cargar la página, ocultamos los controles del video
+    $('#vdEstacion3').attr('controls', false);
+    $('#vdEstacion5').attr('controls', false);
+
+    // ESTACIÓN 3.
+    $(document).ready(function() {
+        $('#playButtonEstacion3').on('click', function() {
+            var video = document.getElementById('vdEstacion3');
+            if (video.paused) {
+                video.play();
+                $(this).hide();
+            }
+        });
+
+        $('#vdEstacion3').on('play', function() {
+            $(this).attr('controls', true);
+            $('#playButtonEstacion3').hide();
+        });
+
+        $('#vdEstacion3').on('pause', function() {
+            $(this).attr('controls', false);
+            $('#playButtonEstacion3').show();
+        });
+    });
+
+    // ESTACIÓN 5.
+    $(document).ready(function() {
+        $('#playButtonEstacion5').on('click', function() {
+            var video = document.getElementById('vdEstacion5');
+            if (video.paused) {
+                video.play();
+                $(this).hide();
+            }
+        });
+
+        $('#vdEstacion5').on('play', function() {
+            $(this).attr('controls', true);
+            $('#playButtonEstacion5').hide();
+        });
+
+        $('#vdEstacion5').on('pause', function() {
+            $(this).attr('controls', false);
+            $('#playButtonEstacion5').show();
+        });
+    });
+
+</script>
+
 
 </body>
 </html>

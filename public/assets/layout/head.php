@@ -7,7 +7,7 @@
 <meta content="text/html; ISO-8859-1" http-equiv="content-Type">
 <meta content="Spanish" name="DC.Language" scheme="RFC1766">
 <meta content="Indaga" name="author">
-<meta content="edgardo@indaga.me" name="reply-to">
+<meta content="contacto@indaga.me" name="reply-to">
 <link href="mailto:edgardo@indaga.me" rev="made">
 <meta name="description" content="Acércate al Niño del Cerro El Plomo | Experiencia de realidad virtual de la Corporación Cultura del Lo Barnechea"/>
 <meta name="keywords" content="realidad virtual, RV, experiencia inmersiva, Niño cerro El Plomo, Lo Barnechea, educación, divulgación, incas, capacocha">

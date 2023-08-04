@@ -8,7 +8,28 @@
     </div>
     <div class="flex flex-col">
         <p class="text-[#1a1a1a] font-avenir font-light text-[22px] md:text-[22px] 2xl:text-[30px] px-[20px] md:px-0 pb-[20px]">A 5.200 metros de altura se ubican las ruinas conocidas como el Adoratorio, ya que los arqueólogos piensan que es muy probable que en este lugar se haya realizado una ceremonia, en la cual el Niño que fue encontrado en la cumbre, fue el protagonista.<br><br>Esta ceremonia era parte de un ritual mucho mayor que realizaban los incas, conocido como la capacocha.</p>
-        <img src="assets/img/estaciones/estacion5-02.jpg" alt="Estacion 5" class="h-[350px] object-cover md:h-auto pb-[20px]">
+
+        <div class="relative w-full h-auto max-w-full pb-[30px]">
+
+            <video id="vdEstacion5" class="w-full md:h-full object-cover" controls="false">
+                <source src="assets/videos/estacion-5.mp4" type="video/mp4">
+            </video>
+
+            <div id="playButtonEstacion5" class="flex flex-col items-center justify-center absolute inset-0 bg-[#70707066] h-[88%] md:h-[96%]">
+                <button class="text-white px-4 py-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                    </svg>
+
+                </button>
+                <h3 class="font-avenir font-bold text-white uppercase md:text-[40px] md:tracking-widest">La Capacocha</h3>
+            </div>
+
+        </div>
+        <!--<img src="assets/img/estaciones/estacion5-02.jpg" alt="Estacion 5" class="h-[350px] object-cover md:h-auto pb-[20px]">-->
+
+
         <p class="text-[#1a1a1a] font-avenir font-light text-[22px] md:text-[22px] 2xl:text-[30px] px-[20px] md:px-0">El Niño del cerro El Plomo fue el protagonista de una capacocha que caminó desde el Cusco, en Perú, en una larga peregrinación que finalmente lo convertiría en el representante de todo su pueblo ante los dioses.</p>
     </div>
 
